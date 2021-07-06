@@ -4,16 +4,18 @@ Provides `UArray`, an `Array` type that supports negative indices/indexes, just 
 
 <br>
 
-<blockquote align="center"> ⚠ Uses the built-in <code>Proxy</code> object, check browser compatibility on the <a href="https://caniuse.com/proxy)"><strong>website</strong></a>.
+<blockquote align="center"> ⚠ Uses the built-in <code>Proxy</code> object, check browser compatibility on the <a href="https://caniuse.com/proxy)"><strong>Can I Use</strong></a> website.
 </blockquote>
 
-<blockquote align="center">📢 This is the pure vanilla JavaScript version of this project, if you are looking for the npm-version, check <a href="https://github.com/igorskyflyer/npm-uarray"><strong>here</strong></a>.</blockquote>
+<p align="center">📢 This is the pure vanilla JavaScript version of this project, if you are looking for the npm-version, check <a href="https://github.com/igorskyflyer/npm-uarray"><strong>here</strong></a>.</p>
 
 <br>
 
 ### Usage
 
-> ℹ Works like negative indices in other languages, e.g. **-1** picks that **last** element, **-2,** the **second to last**, etc.
+<br>
+
+ℹ Works like negative indices in other languages, e.g. **-1** picks that **last** element, **-2,** the **second to last**, etc.
 
 <br>
 
