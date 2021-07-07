@@ -25,15 +25,7 @@ Provides `UArray`, an `Array` type that supports negative indices/indexes, just 
 
 <br>
 
-Install it first by doing,
-
-```shell
-npm i "@igor.dvlpr/uarray"
-```
-
-<br>
-
-and then use it,
+### Example
 
 <br>
 
