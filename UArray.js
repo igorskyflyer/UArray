@@ -22,7 +22,7 @@ function UArray(items) {
 
   if (argsCount > 1) {
     // converts `arguments` object to a regular `Array`,
-    // and as a consequence removes the `[Arguments]` message,
+    // and as a consequence removes the `[Arguments]` message
     // when console-logging the array 🥳
     items = Array.prototype.slice.call(arguments)
   }
