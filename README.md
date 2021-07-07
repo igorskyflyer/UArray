@@ -1,6 +1,8 @@
 ## UArray
 
-Provides `UArray`, an `Array` type that supports negative indices/indexes, just wrap your _regular_ JavaScript array with `UArray()` and you are all set! 🎉🙌
+## UArray
+
+Provides `UArray`, an `Array` type that supports negative indices/indexes, just wrap your _regular_ JavaScript array with `UArray()` or pass the elements directly to `UArray()` and you are all set! 🎉🙌
 
 <br>
 
@@ -21,9 +23,34 @@ Provides `UArray`, an `Array` type that supports negative indices/indexes, just 
 
 <br>
 
+✨ Since `v.1.1.0` the function signature has been changed and now it supports 2 different ways of action. You can now pass a single parameter of type `Array` or multiple parameters of any primitive type.
+
+<br>
+
+Install it first by doing,
+
+```shell
+npm i "@igor.dvlpr/uarray"
+```
+
+<br>
+
+and then use it,
+
+<br>
+
 ```js
-const food = UArray(['🍟', '🌭', '🍿', '🥙', '🥓'])
+const food = UArray(['🍟', '🌭', '🍿', '🥙', '🥓']) // array passed
+const objects = UArray('🎈', '🎩', '⚽', '🥇', '🎯') // no array passed, just direct values
 
 console.log(food[-1]) // prints '🥓'
 console.log(food[-3]) // prints '🍿'
+console.log(objects[-1]) // prints '🎯'
+console.log(objects[-3]) // prints '⚽'
 ```
+
+<br>
+
+<blockquote align="center">
+🎉 Happy coding! 🙌
+</blockquote>
