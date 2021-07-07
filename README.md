@@ -9,7 +9,7 @@ Provides `UArray`, an `Array` type that supports negative indices/indexes, just 
 
 <br>
 
-<p align="center">📢 This is the pure vanilla JavaScript version of this project, if you are looking for the npm-version, check <a href="https://github.com/igorskyflyer/npm-uarray"><strong>here</strong></a>.</p>
+<p align="center">📢 This is the pure vanilla JavaScript version of this project, if you are looking for the **npm-version**, check <a href="https://github.com/igorskyflyer/npm-uarray"><strong>here</strong></a>.</p>
 
 <br>
 
